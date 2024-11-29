@@ -3,32 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de Álbum</title>
-    <meta name="description" content="Galeria de personagens da Marvel">
-    <link rel="stylesheet" href="estilo.css">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Início</a>
-            </li>
-            <li>
-                <a href="galeria.html">Galeria</a>
-            </li>
-            <li>
-                <a href="sobre.html">Sobre</a>
-            </li>
-             
-            
-
-        </ul>
-    </nav>
-    <h1>Galeria de Álbum</h1>
-    <p>Veja capas de álbuns de <strong>diversos artistas!</strong></p>
-
-    
-   
+    <h1>Minha Galeria de Fotos</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="foto1.jpg" alt="Foto 1">
+        </div>
+        <div class="gallery-item">
+            <img src="foto2.jpg" alt="Foto 2">
+        </div>
+        <!-- Adicione mais fotos aqui -->
+    </div>
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
